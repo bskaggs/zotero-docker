@@ -17,4 +17,4 @@ If you choose instead to map in a directory from your host OS, run:
 
 `docker run -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v /full/path/to/your/zotero/data:/home/zotero/.zotero bskaggs/zotero`
 
-This image currently assume that your user and group id are 1000.  If this isn't the case, you need rebuild the docker image yourself to change them.
+This image currently assume that your user and group id are 1000.  If this isn't the case, you need to rebuild the docker image yourself to change them.
