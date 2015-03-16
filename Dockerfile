@@ -4,7 +4,7 @@ MAINTAINER bskaggs@acm.org
 ENV ZOTERO_VERSION 4.0.26.1
 ENV ZOTERO_UID 1000
 ENV ZOTERO_GID 1000
-ENV DEBIAN_FRONTEND=noninteractive 
+ENV DEBIAN_FRONTEND noninteractive 
 RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates bzip2 \
     systemd \
     libx11-6 \
